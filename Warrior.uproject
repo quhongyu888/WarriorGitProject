@@ -11,7 +11,9 @@
 			"AdditionalDependencies": [
 				"Engine",
 				"EnhancedInput",
-				"GameplayAbilities"
+				"GameplayAbilities",
+				"UMG",
+				"AIModule"
 			]
 		}
 	],
@@ -29,6 +31,10 @@
 		},
 		{
 			"Name": "Cargo",
+			"Enabled": true
+		},
+		{
+			"Name": "MotionWarping",
 			"Enabled": true
 		}
 	]
